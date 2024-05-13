@@ -1,0 +1,147 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+#m1 {
+    width: 250px;
+    float: left;
+    margin-right: 10px;
+    }
+    #m2{
+        width:60px;
+        float:right;
+        margin-right:10px;
+      
+    }
+    
+    a {
+    color: #FFF;
+    }
+    
+    #container {
+    
+        padding-left: 35px;
+   
+    }
+    
+    nav {
+    margin: 50px 0;
+    background-color: black;
+    }
+    
+    nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    }
+    
+    nav ul li {
+    display: inline-block;
+    background-color: black;
+    }
+    
+    nav a {
+    display: block;
+    padding: 0 10px;
+    color: white;
+    font-size: 20px;
+    line-height: 60px;
+    text-decoration: none;
+    }
+    
+    nav a:hover {
+    background-color: gray;
+    }
+    
+    
+    nav ul ul {
+    display: none;
+    position: absolute;
+    top: 60px;
+    }
+    
+    
+    nav ul li:hover > ul {
+    display: inherit;
+    }
+    
+    /* Fisrt Tier Dropdown */
+    nav ul ul li {
+    width: 250px;
+    float: none;
+    display: list-item;
+    position: relative;
+    }
+    .sign{
+        float: right;
+    }
+
+.form{
+	
+	border-style:solid;
+	border-radius:12px;
+	margin-left: 40%;
+	max-width:350px;
+	padding-left: 10px;
+
+	
+}
+#logo{  
+   
+    float: left; 
+    margin-right: 10px; 
+	 }
+
+.btnupdate{
+        background-color: rgb(52, 126, 209);
+        border-radius: 4px;
+        border-color:rgb(52, 126, 209);
+        font-size: 15px;
+		color:white;
+		text-decoration:none;
+       
+		
+}
+.btndelete{
+        background-color: rgb(72, 72, 72);
+        border-radius: 4px;
+        border-color:rgb(72, 72, 72);
+        font-size:15px;
+        color:white;
+}
+.footer{
+    left:0;
+    bottom:0;
+    position: fixed;;
+	width: 100%;
+	background-color: rgb(147, 147, 215);
+	
+	
+}
+#about{
+    
+	color:#EFEFEF;
+	background-color:rgb(73, 73, 158);
+	border-color: rgb(73, 73, 158);	
+	font-size: 30px;
+	border-radius: 8px;
+	margin: 10px;
+	inline-size: 150px;
+}
+#contact{
+    margin-right:10px;
+	float: right;
+	color:white;
+	font-size: 30px;
+	font-family: 'Times New Roman', Times, serif;
+}
+#icon{
+	text-align:right;
+	margin-right: 20px;
+	margin-bottom: 10px;;
+	color:white;
+	
+}
+

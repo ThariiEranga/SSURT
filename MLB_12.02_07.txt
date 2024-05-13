@@ -1,0 +1,15 @@
+Project group ID = MLB_12.02_07
+Batch No = 12.02
+Topic = Event Photography Management System
+Project Link = 
+
+Group Members details
+
+IT number     Name                    Tele.Num           Imp. Functions
+          
+IT22241832    Jayasundara K.B.S.M     0765830701         About Us,Login,Registation
+IT22243362    Pathiraja P.U.M         0760673035         Plans,Appointment
+IT22218612    Nawarathne T.E          0702779446         User profile,Edit profile,payment
+IT22231864    Jayalath S.P.S.C.K      0773900340         Home,Gallery
+IT22239402    Weerawardane K.W.R.C    0710527386         Feedback
+

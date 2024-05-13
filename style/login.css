@@ -1,0 +1,237 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+#m1 {
+    width: 250px;
+    float: left;
+    margin-right: 10px;
+    }
+    #m2{
+        width:60px;
+        float:right;
+        margin-right:10px;
+      
+    }
+    
+    a {
+    color: #FFF;
+    }
+    
+    #container {
+    
+        padding-left: 35px;
+   
+    }
+    
+    nav {
+    margin: 50px 0;
+    background-color: black;
+    }
+    
+    nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    }
+    
+    nav ul li {
+    display: inline-block;
+    background-color: black;
+    }
+    
+    nav a {
+    display: block;
+    padding: 0 10px;
+    color: white;
+    font-size: 20px;
+    line-height: 60px;
+    text-decoration: none;
+    }
+    
+    nav a:hover {
+    background-color: gray;
+    }
+    
+    
+    nav ul ul {
+    display: none;
+    position: absolute;
+    top: 60px;
+    }
+    
+    
+    nav ul li:hover > ul {
+    display: inherit;
+    }
+    
+    /* Fisrt Tier Dropdown */
+    nav ul ul li {
+    width: 250px;
+    float: none;
+    display: list-item;
+    position: relative;
+    }
+    .sign{
+        float: right;
+    }
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 350px;
+    background-color: #C0C0C0;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+  }
+  
+  .title {
+    font-size: 28px;
+    color: black;
+    font-weight: 600;
+    letter-spacing: -1px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+  }
+  
+  
+  .title::before {
+    width: 18px;
+    height: 18px;
+    background-color: black;
+  }
+  
+  .title::after {
+    width: 18px;
+    height: 18px;
+    animation: pulse 1s linear infinite;
+  }
+  
+  .message, .login {
+    color: rgba(88, 87, 87, 0.822);
+    font-size: 14px;
+  }
+  
+  .login {
+    text-align: center;
+  }
+  
+  .login a {
+    color: black;
+  }
+  
+  .login a:hover {
+    text-decoration: underline black;
+  }
+  
+  .flex {
+    display: flex;
+    width: 100%;
+    gap: 6px;
+  }
+  
+  .form label {
+    position: relative;
+  }
+  
+  .form label .input {
+    width: 100%;
+    padding: 10px 10px 20px 10px;
+    outline: 0;
+    border: 1px solid rgba(105, 105, 105, 0.397);
+    border-radius: 10px;
+  }
+  
+  .form label .input + span {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    color: grey;
+    font-size: 0.9em;
+    cursor: text;
+    transition: 0.3s ease;
+  }
+  
+  .form label .input:placeholder-shown + span {
+    top: 15px;
+    font-size: 0.9em;
+  }
+  
+  .form label .input:focus + span,.form label .input:valid + span {
+    top: 30px;
+    font-size: 0.7em;
+    font-weight: 600;
+  }
+  
+  .form label .input:valid + span {
+    color: green;
+  }
+  
+  .submit {
+    border: none;
+    outline: none;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    transform: .3s ease;
+  }
+  
+  .submit:hover {
+    background-color: rgb(56, 90, 194);
+  }
+  
+  @keyframes pulse {
+    from {
+      transform: scale(0.9);
+      opacity: 1;
+    }
+  
+    to {
+      transform: scale(1.8);
+      opacity: 0;
+    }
+   
+   
+  }
+  .footer{
+    left:0;
+    bottom:0;
+    position: fixed;;
+	width: 100%;
+	background-color: rgb(147, 147, 215);
+	
+	
+}
+#about{
+    
+	color:#EFEFEF;
+	background-color:rgb(73, 73, 158);
+	border-color: rgb(73, 73, 158);	
+	font-size: 30px;
+	border-radius: 8px;
+	margin: 10px;
+	inline-size: 150px;
+}
+#contact{
+    margin-right:10px;
+	float: right;
+	color:white;
+	font-size: 30px;
+	font-family: 'Times New Roman', Times, serif;
+}
+#icon{
+	text-align:right;
+	margin-right: 20px;
+	margin-bottom: 10px;;
+	color:white;
+	
+}
+
+   
